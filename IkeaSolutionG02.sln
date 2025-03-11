@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IKEA.PL", "IKEA.PL\IKEA.PL.csproj", "{16CC1059-559E-4365-9D0E-AB486F1A480F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IKEA.BLL", "IKEA.BLL\IKEA.BLL.csproj", "{AB443D78-A995-4E86-91BB-55E22611BA3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IKEA.DAL", "IKEA.DAL\IKEA.DAL.csproj", "{B90E4DC3-361D-4D7B-8CA8-9C6131E51AE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16CC1059-559E-4365-9D0E-AB486F1A480F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16CC1059-559E-4365-9D0E-AB486F1A480F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16CC1059-559E-4365-9D0E-AB486F1A480F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16CC1059-559E-4365-9D0E-AB486F1A480F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB443D78-A995-4E86-91BB-55E22611BA3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB443D78-A995-4E86-91BB-55E22611BA3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB443D78-A995-4E86-91BB-55E22611BA3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB443D78-A995-4E86-91BB-55E22611BA3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B90E4DC3-361D-4D7B-8CA8-9C6131E51AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B90E4DC3-361D-4D7B-8CA8-9C6131E51AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B90E4DC3-361D-4D7B-8CA8-9C6131E51AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B90E4DC3-361D-4D7B-8CA8-9C6131E51AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {567AAEF2-2E4D-41CD-955A-2B98CB8430A5}
+	EndGlobalSection
+EndGlobal
