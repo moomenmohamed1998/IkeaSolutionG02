@@ -16,6 +16,7 @@ namespace IKEA.DAL.Persistance.Data
         public ApplicationDbCOntext(DbContextOptions options): base(options)
         {
 
+
         }
 
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
