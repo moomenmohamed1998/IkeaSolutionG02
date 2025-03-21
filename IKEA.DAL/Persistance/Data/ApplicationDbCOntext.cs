@@ -12,19 +12,15 @@ namespace IKEA.DAL.Persistance.Data
 {
     class ApplicationDbCOntext: DbContext
     {
-
-        public ApplicationDbCOntext(DbContextOptions options): base(options)
+        public ApplicationDbCOntext(DbContextOptions options) : base(options)
         {
-
 
         }
 
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //public ApplicationDbCOntext(DbContextOptions<ApplicationDbCOntext> options): base(options)      
         //{
-        //    optionsBuilder.UseSqlServer("Server=.;Database=IKEA_G02;Trusted_Connection=true;Trutservercertificate=true");
 
         //}
-
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
