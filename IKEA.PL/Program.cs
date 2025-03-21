@@ -8,13 +8,32 @@ namespace IKEA.PL
         {
             var builder = WebApplication.CreateBuilder(args);
 
+
             // Add services to the container.
+
+            #region congigue sercies
             builder.Services.AddControllersWithViews();
 
-            builder.Services.AddScoped<ApplicationDbCOntext>();
-            //builder.Services.AddScoped<DbContextOptions<ApplicationDbCOntext>>((serice)=>);
-            var app = builder.Build();
+            //builder.Services.AddDbContext<ApplicationDbCOntext>(options =>
+            //{
+            //    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+            //});
 
+
+            //builder.Services.AddScoped<ApplicationDbCOntext>();          
+            //builder.Services.AddScoped<DbContextOptions<ApplicationDbCOntext>>((service) =>
+            //{
+            //    var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbCOntext>();
+            //    optionsBuilder.UseSqlServer("Server=.;Database=IKEA_G02;Trusted_Connection=true;Trutservercertificate=true");
+            //    var options = optionsBuilder.Options;
+            //    return options;
+            //});
+            #endregion           
+            //builder.Services.AddDbContext<ApplicationDbCOntext>(options =>
+            //{
+            //    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+            //});           
+            var app = builder.Build();
 
             #region cofigure Ppelines (MiddleWares)
 
@@ -27,6 +46,7 @@ namespace IKEA.PL
             }
 
             app.UseHttpsRedirection();
+
             app.UseStaticFiles();
 
             app.UseRouting();
