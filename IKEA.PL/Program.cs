@@ -20,7 +20,7 @@ namespace IKEA.PL
             //});
 
 
-            //builder.Services.AddScoped<ApplicationDbCOntext>();            
+            //builder.Services.AddScoped<ApplicationDbCOntext>();          
             //builder.Services.AddScoped<DbContextOptions<ApplicationDbCOntext>>((service) =>
             //{
             //    var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbCOntext>();
